@@ -4,7 +4,7 @@
 #Libraries
 
 library("ChemmineR")
-library("naturalsort")
+#library("naturalsort")
 library("dplyr")
 
 args<-commandArgs(trailingOnly=TRUE)
@@ -166,7 +166,7 @@ write.table(results,name,row.names=FALSE,sep=",")
 
 temp3<-paste("*conjugate_counts.csv")
 temp4<-Sys.glob(temp3)
-temp4<-naturalsort(temp4)
+#temp4<-naturalsort(temp4)
 
 data_f=NULL
 dat=NULL

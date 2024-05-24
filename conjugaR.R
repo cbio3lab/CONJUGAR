@@ -1,6 +1,7 @@
 #CODE FOR CONJUGATED SYSTEMS IN SEVERAL SDFs
 #William Zamora
 #11.01.22
+#23.05.24: A new systems were added to cjsystems.csv
 #Libraries
 
 library("ChemmineR")
